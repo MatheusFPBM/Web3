@@ -39,8 +39,3 @@
     border-radius: 6px;
     transition: background 0.3s, color 0.3s;
   }
-
-  .nav-links a:hover {
-    background-color: #334155;
-    color: #ffffff;
-  }
