@@ -1,13 +1,11 @@
-
 .sidebar {
     position: fixed;
     top:0;
     left:0;
-    width: 250px;
+    width: 280px;
     height: 100vh;
-    background-color: #1e293b;
+    background-color: #103C76;
     color: #ffffff;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -26,16 +24,21 @@
     margin: 0;
   }
 
-  .nav-links li {
-    margin-bottom: 15px;
-  }
+
 
   .nav-links a {
-    color: #94a3b8;
     text-decoration: none;
     font-size: 1rem;
-    display: block;
     padding: 10px;
     border-radius: 6px;
-    transition: background 0.3s, color 0.3s;
+    display:flex;
+    align-items: center;
+  }
+
+  .icones{
+    width: 122px;
+    height: 97px;
+    display: block;
+    object-fit: contain;
+    margin: 0 auto;
   }
